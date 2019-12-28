@@ -22,3 +22,15 @@ componentDidMount() {
         position: 'CENTER_BOTTOM', // Other possible values: LEFT_TOP, CENTER_TOP, RIGHT_TOP, CENTER, LEFT_BOTTOM, RIGHT_BOTTOM etc.
       },
 ```
+
+5. Run the react native app as usual. If successful, you should see the slang mic icon at the bottom of the screen once the app loads. 
+
+6. Click on the mic to launch Slang. 
+
+7. Change the handler to customize handling of the intents
+
+```
+Slang.setIntentActionHandler(intent => {
+      this.setState({data: intent});
+});
+```
