@@ -10,7 +10,7 @@ maven {
 }
 ```
 
-4. Change the keys in App.js to refer to the buddy_id and api_key specific to your account
+4. Change the keys in App.js to refer to the buddy_id and api_key specific to your account (as available in https://console.slanglabs.in)
 
 ```
 componentDidMount() {
