@@ -1,7 +1,7 @@
 # steps required
 
-yarn add file:../../react-native-slang
-react-native link react-native-slang
+1. $ yarn add file:../../react-native-slang
+2. $ react-native link react-native-slang
 
 in project level build.gradle add
 
